@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-mobajl",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0"
+  }
+}
