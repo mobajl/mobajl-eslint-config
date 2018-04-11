@@ -8,6 +8,10 @@ module.exports = {
 		IS_DEV: true,
 		IS_LIVE: true,
 	},
+	plugins: ['jest'],
+	env: {
+		'jest/globals': true,
+	},
 	rules: {
 		// General
 		'no-console': 0,
