@@ -24,7 +24,7 @@ module.exports = {
 		'global-require': 0,
 
 		// Code Style
-		'max-len': ['error', { code: 120 }],
+		'max-len': [1, { code: 120 }],
 		'no-tabs': 0,
 		indent: [2, 'tab', { SwitchCase: 1 }],
 		camelcase: 0,
@@ -45,12 +45,7 @@ module.exports = {
 		'react/sort-comp': [
 			1,
 			{
-				order: [
-					'static-methods',
-					'lifecycle',
-					'everything-else',
-					'render',
-				],
+				order: ['static-methods', 'lifecycle', 'everything-else', 'render'],
 			},
 		],
 		'react/no-string-refs': 0,
