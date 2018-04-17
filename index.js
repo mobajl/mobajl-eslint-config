@@ -7,6 +7,9 @@ module.exports = {
 		__IS_BROWSER__: true,
 		IS_DEV: true,
 		IS_LIVE: true,
+		NODE_PORT: true,
+		NODE_SOURCE: true,
+		NODE_ENV: true,
 	},
 	plugins: ['jest'],
 	env: {
