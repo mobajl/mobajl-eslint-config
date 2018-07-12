@@ -20,5 +20,6 @@ module.exports = {
 		indent: [2, 'tab', { SwitchCase: 1 }],
 		camelcase: 0,
 		'no-underscore-dangle': 0,
+		'arrow-parens': [1, 'as-needed'],
 	},
 };
