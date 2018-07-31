@@ -21,5 +21,6 @@ module.exports = {
 		camelcase: 0,
 		'no-underscore-dangle': 0,
 		'arrow-parens': [1, 'as-needed'],
+		'padding-line-between-statements': [1, { blankLine: 'always', prev: 'function', next: 'function' }],
 	},
 };
